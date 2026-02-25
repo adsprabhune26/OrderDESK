@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>view_orders_screen</class>
+ <widget class="QDialog" name="view_orders_screen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Orders</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #2F3E46;
+</string>
+  </property>
+  <widget class="QTableWidget" name="orders_table">
+   <property name="geometry">
+    <rect>
+     <x>25</x>
+     <y>25</y>
+     <width>450</width>
+     <height>450</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTableWidget {
+    background-color: #2F3E46;
+    color: #F4F6F8;
+    gridline-color: #3E5059;
+	font-family:&quot;Century751 No2 BT&quot;;
+    font-size:11pt;
+    font-weight:bold;
+    font-style:italic;
+}
+
+QTableWidget::item {
+    color: #F4F6F8;
+}
+
+QHeaderView::section {
+    background-color: #2F3E46;
+    color: #F4F6F8;
+}</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
